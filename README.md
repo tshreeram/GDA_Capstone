@@ -7,11 +7,11 @@ In this capstone/case study, I am to carry out the tasks of a junior data analys
 ### Table of Contents(links):  
 1. Dataset :[Cyclistic Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)  
 2. [Ask](#ask)  
-3. [Prepare](#-prepare)  
-4. [Process]  
-5. [Analyze]  
-6. [Share]  
-7. [Act]
+3. [Prepare](#prepare)  
+4. [Process](#process)   
+5. [Analyze](#analyze-and-share)  
+6. [Share](#analyze-and-share)  
+7. [Act](#act)
 8. R code: [all in one]()
 9. Data Viz: [Tableau](https://public.tableau.com/app/profile/shreeram.t/viz/cyclistic2018_v1/Dashboard1#1)
 
@@ -68,6 +68,46 @@ From combining datasets, sort, filter to cleaning and transforming data, all is 
 ## Analyze and Share  
 
 Data Viz: [Tableau](https://public.tableau.com/app/profile/shreeram.t/viz/cyclistic2018_v1/Dashboard1#1)  
-Note : The pie chart I forgot to include in it....Well if you know the way around Tableau, you'll know how to make a simple pie chart but the picture is included in this.
+Note : The pie chart I forgot to include in the tableau public....Well if you know the way around Tableau, you'll know how to make a simple pie chart but the picture is included in this.  
+Firstly we need to Identify how much do each usertype amount to in contrast to the whole in terms of trip_id (which is unique for each ride) in the year 2018:  
 
+![pie chart](tableau_viz/piechart.png)
 
+Clearly the Subscribers make around 90% of the total while the casual riders aka the Customers are about 10%.  
+
+Now, considering that is was early on in 2018 the casual riders aren't much (partily because of my fault for chooing the year 2018 to do analysis on).
+
+Next the number of trips distributed by months,weekdays and hours of the day separated by gender are visualized below:  
+
+*before taking a look at the viz please note that in the viz the x-axis has titles which inclues 'start time' so to clarify there's two datetime cols in the dataset but when it comes to visualizing we only need a single 'time' column for which either of them could work hence rather than creating a separate col for this I used the existing one so as to not increase the dataset size overall.  
+
+TLDR: it doesn't matter if it says 'start time' or 'end time' in the x-axis title, it just indicates 'time'.*
+
+![dashboard1](tableau_viz/Dashboard(sum).png)
+
+After visualizing the sum of tripduration, we move onto visualzing the average tripduration distributed by months, weekdays and hours of the day separated by gender are visualized as shown below:  
+
+![dashboard2](tableau_viz/Dashboard(avg).png)  
+
+Now after seeing both the visualzations the following things are observed:  
+1. The users with gender unspecified are customers for the most part, in other words customers/casual users don't mention thier gender or birthyear since they are not signing up for a subscription essentially.
+2. SUM: Overall regardless of gender the Subscribers have put in way more tripduration than Customers which makes sense.
+3. AVG: When you look at the Average Trips, the Customers tend to cycle longer than the Subscribers do on average again regardless of gender. It doesn't change throughout the year, week or day.
+
+Conclusion:
+- The users with gender unspecified are customers
+- The casual commuters travel longer but less frequently than members. They make longer journeys on weekends and during the day outside of commuting hours whereas the Subscribers essentially travel during commuting hours for work or something of that sort, hence the Subscribers don't make long journeys but they repeat the same journey to their workplace or something of that sort.
+- If the analysis was done on future datasets with latitude and longitude data it would've been possible to figure out where casual customers are commuting to(if its for recreational purpose then it'd like something out of workplace or residential areas).
+
+Summary:  
+- Customers: bike for long hours but less frequently.
+- Subscribers: bike for short hours but more frequently.
+
+## Act
+
+After performing analysis we identified the differences between Customers and Subscribers marketing strategies can be developed to eventually turn the Customers into Subscribers.  
+
+Recommendations for marketing strategies:
+- offering discounts or special passes on the weekends or holidays during the right time of the season could be a viable plan to attract Customers to Subscribe.
+- marketing and advertisiing aimed at the Customers which encourages them to take the bike share for commute for eg near an university or a museum aiming to convert them into Subscribers(may also consider special offer for joining/first month)
+- Can totally see that the total trips taken during winter is relatively low, so to counter that yet again seasonal passes may be promoted.
