@@ -46,6 +46,8 @@ For more info on Prohibited Conduct Visit: [license](https://divvybikes.com/data
 
 ## Process
 For the processing step (which I consider to be the most important in the analysis process) I went with R.
-From sort & filter to cleaning everything is recored in the file :[]()
+From sort & filter to cleaning everything is recored in the R log file: [log](https://github.com/Ill-Omen0-0/GDA_Capstone/blob/main/analysis.R)
+
+
 
 
