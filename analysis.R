@@ -70,5 +70,5 @@ print(usertype)
 #filter2 <- filter1 %>% filter(from_station_id == to_station_id)
 
 
-#analysis
+#visualization
 #might end up complex in R so I went with the good old Tableau(super easy :D)
