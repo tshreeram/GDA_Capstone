@@ -4,10 +4,10 @@ install.packages("janitor")
 library(janitor)
 
 #import the dataset
-Q1 <- read.csv("D:/Courses/GDA/capstone/Track1/2018/Divvy_Trips_2018_Q1.csv")
-Q2 <- read.csv("D:/Courses/GDA/capstone/Track1/2018/Divvy_Trips_2018_Q2.csv")
-Q3 <- read.csv("D:/Courses/GDA/capstone/Track1/2018/Divvy_Trips_2018_Q3.csv")
-Q4 <- read.csv("D:/Courses/GDA/capstone/Track1/2018/Divvy_Trips_2018_Q4.csv")
+Q1 <- read.csv("Divvy_Trips_2018_Q1.csv")
+Q2 <- read.csv("Divvy_Trips_2018_Q2.csv")
+Q3 <- read.csv("Divvy_Trips_2018_Q3.csv")
+Q4 <- read.csv("Divvy_Trips_2018_Q4.csv")
 
 colnames(Q1)
 Q1 <- Q1[-1,]
