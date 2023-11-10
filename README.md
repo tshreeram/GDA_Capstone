@@ -42,12 +42,32 @@ Using the dataset provided by the course to analyze and identify trends from Jan
 
 This is the public data provided by Motivate International Inc. under the license quoted on the website:  
 Bikeshare hereby grants to you a non-exclusive, royalty-free, limited, perpetual license to access, reproduce, analyze, copy, modify, distribute in your product or service and use the Data for any lawful purpose (“License”).  
-For more info on Prohibited Conduct Visit: [license](https://divvybikes.com/data-license-agreement).
+For more info on Prohibited Conduct Visit: [license](https://divvybikes.com/data-license-agreement).  
+As for preparing the dataset, it includes the following:  
+1. Download data and store it appropriately.
+2. Identify how it’s organized.
+3. Sort and filter the data.
+4. Determine the credibility of the data.
+
+Refer the analysis log covering this and the process part, it's not that big (surprisingly, unless I did it totally wrong) so I put all the R commands in one place.  
+
+Log: [log](https://github.com/Ill-Omen0-0/GDA_Capstone/blob/main/analysis.R)
+ 
 
 ## Process
 For the processing step (which I consider to be the most important in the analysis process) I went with R.
-From sort & filter to cleaning everything is recored in the R log file: [log](https://github.com/Ill-Omen0-0/GDA_Capstone/blob/main/analysis.R)
 
+Deliverables:
+1. Check the data for errors.
+2. Choose your tools.
+3. Transform the data so you can work with it effectively.
+4. Document the cleaning process.
 
+From combining datasets, sort, filter to cleaning and transforming data, all is recored in the R log file: [log](https://github.com/Ill-Omen0-0/GDA_Capstone/blob/main/analysis.R)
+
+## Analyze and Share  
+
+Data Viz: [Tableau](https://public.tableau.com/app/profile/shreeram.t/viz/cyclistic2018_v1/Dashboard1#1)  
+Note : The pie chart I forgot to include in it....Well if you know the way around Tableau, you'll know how to make a simple pie chart but the picture is included in this.
 
 
