@@ -71,4 +71,10 @@ print(usertype)
 
 
 #visualization
-#might end up complex in R so I went with the good old Tableau(super easy :D)
+#done in Tableau ( could've used R too but I'm not that proficient yet also since Tableau is gui not code)
+
+#notes
+#my choice of dataset is wrong, 2018 dataset doesn't prove much.
+#I'm not that proficient in R yet which sucks but I'll get there hopefully
+#Also I could've just used a rmd instead of this wasted time T_T
+#Alas the analysis could very well be wrong
