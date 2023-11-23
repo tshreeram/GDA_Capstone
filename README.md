@@ -12,7 +12,7 @@ In this capstone/case study, I am to carry out the tasks of a junior data analys
 5. [Analyze](#analyze-and-share)  
 6. [Share](#analyze-and-share)  
 7. [Act](#act)
-8. R code: [all in one]()
+8. R code: [all in one](https://github.com/Ill-Omen0-0/GDA_Capstone/blob/main/analysis.R)
 9. Data Viz: [Tableau](https://public.tableau.com/app/profile/shreeram.t/viz/cyclistic2018_v1/Dashboard1#1)
 
 ## Scenario
