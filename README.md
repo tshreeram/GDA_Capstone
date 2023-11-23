@@ -75,12 +75,11 @@ Firstly we need to Identify how much do each usertype amount to in contrast to t
 
 Clearly the Subscribers make around 90% of the total while the casual riders aka the Customers are about 10%.  
 
-Now, considering that is was early on in 2018 the casual riders aren't much (partily because of my fault for chooing the year 2018 to do analysis on).
+Now, considering that it was early on in 2018 the casual riders aren't much (partily because of my fault for chooing the year 2018 to do analysis on).
 
 Next the number of trips distributed by months,weekdays and hours of the day separated by gender are visualized below:  
 
 *before taking a look at the viz please note that in the viz the x-axis has titles which inclues 'start time' so to clarify there's two datetime cols in the dataset but when it comes to visualizing we only need a single 'time' column for which either of them could work hence rather than creating a separate col for this I used the existing one so as to not increase the dataset size overall.  
-
 TLDR: it doesn't matter if it says 'start time' or 'end time' in the x-axis title, it just indicates 'time'.*
 
 ![dashboard1](tableau_viz/Dashboard(sum).png)
