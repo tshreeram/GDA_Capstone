@@ -77,4 +77,4 @@ print(usertype)
 #my choice of dataset is wrong, 2018 dataset doesn't prove much.
 #I'm not that proficient in R yet which sucks but I'll get there hopefully
 #Also I could've just used a rmd instead of this wasted time T_T
-#Alas the analysis could very well be wrong
+
